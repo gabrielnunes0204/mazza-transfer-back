@@ -48,3 +48,5 @@ Execute a aplicação:
 - mvn spring-boot:run
 
 A aplicação estará disponível em: http://localhost:8080 🚀
+
+Vídeo de demonstração do projeto: [![Demonstração do Projeto](https://img.youtube.com/vi/00F1djuFaE4/maxresdefault.jpg)](https://www.youtube.com/watch?v=00F1djuFaE4)
