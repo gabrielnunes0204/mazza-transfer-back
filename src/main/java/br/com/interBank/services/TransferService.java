@@ -42,7 +42,7 @@ public class TransferService {
 				entity = this.transferMapper.transferDtoToEntity(request);
 			}
 			
-			entity.setDataHoraAgendamento(LocalDateTime.now());
+			entity.setDataHoraTransferencia(LocalDateTime.now());
 			BigDecimal valorTaxa = this.aplicarTaxa(
 					entity.getDataHoraAgendamento(),
 					entity.getDataHoraTransferencia(),
